@@ -1,0 +1,26 @@
+﻿
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>View</title>
+</head>
+<body>
+<div class="container">
+        <main role="main" class="pb-3">
+            @RenderBody()
+        </main>
+   </div>
+    <footer class="border-top footer text-muted">
+        <div class="container">
+            @@Priya's MVC demo application !! <a asp-area="" asp-controller="First" asp-action="Index1">First-Index1(default)</a>||
+             <a asp-area="" asp-controller="First" asp-action="Index2">First-Index2</a>||
+              <a asp-area="" asp-controller="First" asp-action="Index3">First-Index3</a>||
+               <a asp-area="" asp-controller="Second" asp-action="Index1">Second-Index1</a>||
+                <a asp-area="" asp-controller="Second" asp-action="Index2">Second-Index2</a>||
+                 <a asp-area="" asp-controller="Second" asp-action="Index3">Second-Index3</a>
+        </div>
+    </footer>
+</body>
+</html>
